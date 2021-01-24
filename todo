@@ -1,0 +1,20 @@
+Transition: ligne brillante (vert ou bleu) qui passe sur l ecran comme un scanneur et fait apparaitre le contenu (avec un bloc noir qui avance en meme temps qu elle)
+scaneur genere des petites particules bleues genre des etincelles
+
+Fond noir
+quadrillege gris clair discret
+Construction : fleche pour aller a gauche avec titre - contenu - fleche pour aller a droite avec titre
+titre des fleches en neon
+contenu arrive sur les cotés quand on scroll en parralax-x
+
+Pages:
+-reseaux sociaux (github, discord, formulaire de contact qui utilise stmp sur une adresse email (tickshot, qui l envoie a une autre (kobo) et qui redirect (vers la mienne) pour cahcer mon email)
+-projets: timeline quand on hover des dates, fait apparaitre le projet et le div projet est entouré de petits scanners qui font le tour en permanance
+-Page d'accueil, pdp recupérée sur github
+-languages maitrisés (avec barres de chargement qui se remplissent au passage a la page avec le scanner)
+-what i like piano>[classical>, instrumental] programming psychologie () (ici easter egg)
+
+
+NE PAS AVOIR A SCROLL
+
+En train de deplacer le conteneur de conteur pour le hover
