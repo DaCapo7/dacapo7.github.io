@@ -18,6 +18,7 @@ window.addEventListener('load', ()=>
     maindiv = document.getElementById('maindiv')
     colorpointer = document.getElementById('colorpointerdiv')
     colorpointer.style = `
+    opacity: 0.2;
     width: 200px;
     height: 200px;
     position:fixed;
