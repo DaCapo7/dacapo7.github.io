@@ -93,8 +93,8 @@ window.addEventListener('load',()=>{
         let acote = document.createElement('div')
         acote.innerHTML = `<h2>${projects[i].title}</h2>`
 
-        if (i%2==0){acote.style = "background:rgb(30, 30, 30);width: 100px;height: 50px;position:relative;left:40px;z-index:100;top:-25px;font-size:10px;text-align:center;color:rgb(80, 255, 246);padding:3px 2px;box-shadow:0 0 10px rgb(80, 255, 246);overflow-y:scroll;"}
-        else{acote.style = "background:rgb(30, 30, 30);width: 100px;height: 50px;position:relative;left:-125px;z-index:100;top:-25px;font-size:10px;text-align:center;color:rgb(80, 255, 246);padding:3px 2px;box-shadow:0 0 10px rgb(80, 255, 246);overflow-y:scroll;"}
+        if (i%2==0){acote.style = "background:rgb(30, 30, 30);width: 100px;height: 50px;position:relative;left:40px;z-index:100;top:-25px;font-size:10px;text-align:center;color:rgb(80, 255, 246);padding:3px 2px;box-shadow:0 0 10px rgb(80, 255, 246);overflow-y:auto;"}
+        else{acote.style = "background:rgb(30, 30, 30);width: 100px;height: 50px;position:relative;left:-125px;z-index:100;top:-25px;font-size:10px;text-align:center;color:rgb(80, 255, 246);padding:3px 2px;box-shadow:0 0 10px rgb(80, 255, 246);overflow-y:auto;"}
         acote.classList.add(i);
         acote.addEventListener('click', acoteclicked)
         point.appendChild(acote)
