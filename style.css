@@ -93,7 +93,6 @@ body::-webkit-scrollbar {
 
 
 #protimeline{
-    filter: blur(0.5px);
     width: 5px;
     min-height: 100vh;
     position: relative;
